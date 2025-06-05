@@ -1,0 +1,43 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#date{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 8rem;
+    padding: 10px 30px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: fixed;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    
+
+}
